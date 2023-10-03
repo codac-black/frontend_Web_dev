@@ -1,0 +1,24 @@
+h1{
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 4px dotted limegreen;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+
+div{
+    font-family: monaco;
+    font-size: 16px;
+    font-style: italic; 
+}
+
+span{
+    font-style: normal;
+    color: lime;
+}
+
+
