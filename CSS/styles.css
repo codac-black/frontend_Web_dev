@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{
     color: orange;
     text-decoration: underline;
@@ -19,6 +23,55 @@ div{
 span{
     font-style: normal;
     color: lime;
+}
+
+.home{
+    text-decoration: none;
+    font-size: 18px;
+}
+/* pseudoclasses*/
+.home:hover{
+    color: orange;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: teal;
+}
+
+.home::after{
+    content: ("click me");
+    color: red;
+}
+
+.trivia{
+    text-decoration: none;
+    font-size: 18px;
+}
+.trivia:hover{
+    border: 1px dotted teal;
+    border-radius: 6px;
+    background-color: lime;
+}
+
+.posts::after{
+    content: ("click me");
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    display : block;
+}
+
+.box{
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 15px;
+    font-size: 30px;
 }
 
 
